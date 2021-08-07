@@ -7,8 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import logo from './logo.svg'
-import './App.scss'
+import './assets/styles/App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
