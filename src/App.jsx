@@ -1,4 +1,4 @@
-import Main from './pages/Main'
+import Home from './pages/Home'
 
 import React, { useState } from 'react'
 import {
@@ -21,7 +21,7 @@ function App() {
           <div>
             <Switch>
               <Route path="/">
-                <Main />
+                <Home />
               </Route>
             </Switch>
           </div>

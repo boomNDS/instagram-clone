@@ -3,5 +3,46 @@
 @tailwind utilities;
 
 .App {
-    .navbar {}
+    a {
+        text-decoration: none;
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+
+    .storyBorder {
+        padding: 2px;
+        background: red;
+        border-radius: 50%;
+    }
+
+    .userProfile {
+        border-radius: 50%;
+        border: 2px solid whitesmoke;
+        display: block;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &.small {
+            width: 30px;
+            height: 30px;
+        }
+
+        &.medium {
+            width: 35px;
+            height: 35px;
+        }
+
+        &.big {
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+
+    .stories {}
+
+
+
 }
