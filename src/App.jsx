@@ -1,4 +1,4 @@
-import Main from './pages/Main'
+import Home from './pages/Home'
 
 import React, { useState } from 'react'
 import {
@@ -7,8 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import logo from './logo.svg'
-import './App.scss'
+import './assets/styles/App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +21,7 @@ function App() {
           <div>
             <Switch>
               <Route path="/">
-                <Main />
+                <Home />
               </Route>
             </Switch>
           </div>
