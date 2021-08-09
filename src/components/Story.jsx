@@ -10,7 +10,7 @@ function Story() {
         userName = userName.substring(0, 10) + "..."
     }
     return (
-        <div className="story">
+        <div className="story mx-2">
             <UserProfile iconSize="big" storyBorder={true} />
             <p className="userName">{userName}</p>
         </div>

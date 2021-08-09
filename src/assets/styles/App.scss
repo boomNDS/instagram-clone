@@ -10,8 +10,8 @@
     }
 
     .storyBorder {
-        padding: 2px;
-        background: red;
+        padding: 0.3rem;
+        background: #fd5560;
         border-radius: 50%;
     }
 
@@ -43,6 +43,10 @@
 
     .stories {}
 
-
+    .post {
+        .relative {
+            right: -34rem;
+        }
+    }
 
 }

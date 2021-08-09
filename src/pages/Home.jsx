@@ -1,17 +1,23 @@
 import Nav from '../components/Nav'
 import StoryCards from '../components/StoryCards'
+import Post from '../components/Post'
 
 import React from 'react'
+
+let PostList = [];
+for (let i = 0; i < 6; i++) {
+    PostList.push(<Post />)
+}
 
 function Home() {
     return (
         <div className="">
             <Nav />
-            <div className="container home mx-auto max-w-screen-lg h-full py-16 flex justify-center">
-                {/* <div className="overflow-hidden my-6 p-2 shadow "> */}
-                <StoryCards />
-                {/* </div> */}
-                {/* <div className="hidden md:flex">Mobile</div> */}
+            <div className="container home py-16 flex justify-center max-w-70">
+                <div>
+                    <StoryCards />
+                    {PostList}
+                </div>
             </div>
         </div>
     )

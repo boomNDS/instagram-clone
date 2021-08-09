@@ -6,7 +6,7 @@ import React from 'react'
 
 function Nav() {
     return (
-        <nav className="h-16 w-screen bg-white border-b-2 border-gray-primary fixed top-0">
+        <nav className="h-16 w-screen bg-white border-b-2 border-gray-primary fixed top-0 z-50">
             <div className="container mx-auto max-w-screen-lg h-full">
                 <div className="flex justify-between h-full">
                     <div className="text-gray-700 text-center flex items-center align-items cursor-pointer">

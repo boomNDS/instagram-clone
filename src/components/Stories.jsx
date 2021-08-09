@@ -1,12 +1,12 @@
 import React from 'react'
-import HorizontalScroll from 'react-scroll-horizontal'
 import Story from '../components/Story'
+import OverflowWrapper from 'react-overflow-wrapper';
 
 
 function Stories() {
     return (
-        <div className="stories">
-            <HorizontalScroll className="scroll" reverseScroll={true}>
+        <div className="stories flex border-2 border-gray-primary mt-6 p-2">
+            <OverflowWrapper>
                 <Story />
                 <Story />
                 <Story />
@@ -15,11 +15,7 @@ function Stories() {
                 <Story />
                 <Story />
                 <Story />
-                <Story />
-                <Story />
-                <Story />
-                <Story />
-            </HorizontalScroll>
+            </OverflowWrapper>
         </div>
     )
 }
